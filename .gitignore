@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Media files that are too large
+*.wav
+*.mp3
+
+# Model checkpoints or outputs if desired (optional, but keep it clean)
+# models/music_lstm_model.keras is 12MB, we can include it or ignore it, let's keep mappings.pkl and the model if the user wants it.
+# To keep the models, we do not ignore the models directory.
